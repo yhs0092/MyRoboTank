@@ -6,9 +6,9 @@ import robocode.util.Utils;
 
 public class HelloWorld extends Robot {
 
-  private static final int MAX_GUN_ROTATION_DEGREE = 20;
+  public static final int MAX_GUN_ROTATION_DEGREE = 20;
 
-  double traceDegree = MAX_GUN_ROTATION_DEGREE;
+  private double traceDegree = MAX_GUN_ROTATION_DEGREE;
 
   @Override
   public void run() {
